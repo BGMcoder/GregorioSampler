@@ -1,0 +1,50 @@
+% !TEX TS-program = gregorio
+% !TEX encoding = UTF-8
+
+% The first part of the score is called the header, you can input some useful informations here:
+name: Gabc Cheat Sheet;
+date: 2013;
+transcriber: Brother Gabriel-Marie;
+transcription-date: 2013;
+style: modern;
+def-m1:%test72;
+initial-style: 0;
+annotation:Test;
+annotation:1;
+%%
+%-------------------------------------------------------------------
+%
+
+%To force a line break and justify the staff, place (z) at the end
+%adding (z    ) will add space before the justification mark
+
+%scale
+(c4) a[   scale](a) b(b) c(c) d(d) e(e) f(f) g(g) h(h) i(i) j(j) k(k) l(l) m(m) (::) (g) /[neumatic cut](/) (g) //(//) (g) ( ::       z)
+
+%puncti & various glyphs
+g[   single notes](g)  gv(gv) gw(gw) go(go) g<(g<) g>(g>) g~(g~) g.(g.) g..(g..) g'(g') g_(g_) g_0(g_0) go<sp>~</sp>(go~) go<(go<) gs(gs) gs<(gs<) G(G) G<sp>~</sp>(G~) G>(G>) (::)(z)
+
+%clefs, pitch notes, custos
+c1[    clefs](c1)  c2(c2)  c3(c3)  c4(c4)  f2(f2)  f3(f3)  f4(f4)  cb3(cb3)  (::) [breathe](  ) `(`) ( :: ) gx[pitch](gx)  gy(gy) g#(g#) z0::c4[custos inside staff](z0::c4)(       z)
+
+%breaks and separations
+;[  breaks](;)    :(:)    ::(::) ;1[separations](;1) ;2(;2) ;3(;3) ;4(;4) ;5(;5) ;6(;6) ,_(,_)  :'(:')  (                    z)
+
+%podatus, torculus
+gh[podatus](gh) gi(gi) ig(ig) gh_(gh_) g'h(g'h) gh'(gh') gqi(gqi) g'qi(g'qi) hg(hg) eh..(eh..) (::) efe(efe) ghg[torculus](ghg) gh_g_(gh_g_)  g_h_g_(g_h_g_)  e_i_h_(e_i_h_)(::)(z)
+
+%liquescents, qualisma, porrectus
+eg<sp>~</sp>[liquescent & debilis](eg~)  ge<sp>~</sp>(ge~)  geg<sp>~</sp>(geg~)  -gh(-gh) gh<sp>~</sp>(gh~) -fgf(-fgf) fgf<sp>~</sp>(fgf~)(::)  gw[qualisma](gw)  gwi(gwi)  gwig(gwig) gWi(gWi)  (::) ge[porrectus](ge)   geg(geg)  gege(gege)  (::z)
+
+%neum formations
+fgh(fgh )  f!gh(f!gh ) f!g'h(f!g'h ) fg!hv(fg!hv )  f/gh(f/gh )  f//gh(f//gh )  f gh(f gh ) fghi(fghi) fg!hi(gg!hi) f!gh!i(f!gh!i) (:)  gvF'E~(gvF'E~)(::Z)
+
+%extraneous notes
+g(g) gr(gr) gR(gR ) gr0(gr0) (;) gr1(gr1) gr2(gr2) gr3(gr3) gr4(gr4) gr5(gr5) (;) grr1(grr1) grr2(grr2) grr3(grr3) grr4(grr4) grr5(grr5) (;) (z)
+gr0r1(gr0r1) gr0r2(gr0r2) gr0r3(gr0r3) gr0r4(gr0r4 ) gr0r5(gr0r5 ) (;) gR0r1(gR0r1) gR0r2(gR0r2) gR0r3(gR0r3) gR0r4(gR0r4 ) gR0r5(gR0r5 ) (::) gss(gss) hsss(hsss) (::) (z)
+
+%
+
+%-------------------------------------------------------------------
+
+
