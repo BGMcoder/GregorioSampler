@@ -1,0 +1,66 @@
+﻿% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+% greg_template
+
+%greg_template_basic.tex
+%This is a lualatex template fitted for use with greg.exe
+
+%There are tokens like this:    Make It Green
+%These are special tokens that are either loaded from the settings in the gabc file
+%or they are set per instance by the user in greg's main interface
+
+%You can use your own custom tokens via greg's Token Editor
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+% usual packages loading:
+\usepackage{luatextra}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper} % or letterpaper (US) or a5paper or....
+\usepackage{gregoriotex} % for gregorio score inclusion
+\usepackage{fullpage} % to reduce the margins
+
+% choose the language of the document here
+\usepackage[latin]{babel}
+
+% use the two following package for using normal TeX fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+
+% If you use usual TeX fonts, here is a starting point:
+\usepackage{times}
+% to change the font to something better, you can install the kpfonts package (if not already installed). To do so
+% go open the "TeX Live Manager" in the Menu Start->All Programs->TeX Live 2010
+
+% here we begin the document
+\begin{document}
+\pagestyle{empty}		%removes page numbering
+
+
+% The title:
+\begin{center}\begin{huge}\textsc{Make It Green}\end{huge}\end{center}
+
+% Here we set the space around the initial.
+% Please report to http://home.gna.org/gregorio/gregoriotex/details for more details and options
+\setspaceafterinitial{2.2mm plus 0em minus 0em}
+\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+
+% Here we set the initial font. Change 43 if you want a bigger initial.
+\def\greinitialformat#1{  {\fontsize{28}{28}\selectfont #1}  }
+
+% We set red lines here, comment it if you want black ones.
+
+
+
+% We set VII above the initial.
+\setfirstannotation{\fontsize{10}{10}{ }}%
+\setsecondannotation{\sc{\fontsize{10}{10}{ }}}
+
+% We type a text in the top right corner of the score:
+\commentary{{\small \emph{ }}}
+
+% and finally we include the score. The file must be in the same directory as this one.
+\includescore{green}
+
+\end{document}

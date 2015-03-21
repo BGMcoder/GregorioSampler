@@ -1,0 +1,9 @@
+name:Suppress the Custos;
+def-m1:\greblockcustos;
+def-m2:\greblockcusto=0;
+%%
+(c4)Your(g) chant(g) go(h)eth(h) here.(f) (::)(Z)
+<c>1.</c> Some(g) chant(g) on(e) this(e) line(f) (::Z)
+<c>2.</c> A(g) line(g) with(e) the(e) cus(f)tos(f) sup(h)pressed.(h) (::Z[em1])
+<c>3.</c> Turn(g[em2]) on(g) the(e) cus(f)tos(g) a(g)gain.(g) (::Z) 
+<c>4.</c> One(g) more(g) line(e) of(h) chant(h) so(h) the(g) pre(g)vi(g)ous(g) line(h) will(h) get(h) a(h) cus(i)tos(i) (::)
